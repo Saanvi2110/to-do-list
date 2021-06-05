@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	font-size: 40px;
+    margin: 5px;
+	background-color: #00b867;
+	color: white;
+	text-align: center;
+	padding: 30px 40px;
+   }
+  
+   input{
+
+   	width: 75%;
+   	padding: 15px;
+   	float: left;
+   	font-size: 20px;
+   }
+
+   .addBtn{
+   	width: 15%;
+   	font-size: 20px;
+    padding: 15px;
+    background-color: grey;
+    color:white;
+    cursor: pointer;
+   }
+
+
+.addBtn:hover{
+	background-color: black;
+}
+
+li{
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background-color: #eee;
+    font-size: 25px;
+    list-style: none;
+    margin:10px ;
+  }
+  .close{
+    display: inline-block;
+    background-color: red;
+    width: 30px;
+    margin-left: 1200px;
+    text-align: center;
+    height: 25px;
+    cursor: pointer;
+    padding: 0;
+  }
+  .close:hover{
+    background-color: red;
+    color: white;
+    transform:scale(1.2);
+  }
